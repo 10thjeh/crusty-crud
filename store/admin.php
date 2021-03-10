@@ -18,6 +18,7 @@
   </head>
   <body>
     <h1>Welcome admin <?php echo "{$_SESSION['user']}";?></h1>
+    <h1>Your role is <?php echo "{$_SESSION['role']}" ?></h1>
     <form action="" method="post">
       <input type="submit" name="logout" value="logout">
     </form>
